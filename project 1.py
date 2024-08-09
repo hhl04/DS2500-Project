@@ -235,7 +235,7 @@ def main():
     'GOOGL', # Alphabet Inc. (Google)
     'AMZN',  # Amazon.com, Inc.
     'TSLA',  # Tesla, Inc.
-    'FB',    # Meta Platforms, Inc. (formerly Facebook)
+    'META',    # Meta Platforms, Inc. (formerly Facebook)
     'NVDA',  # NVIDIA Corporation
     'NFLX',  # Netflix, Inc.
     'INTC',  # Intel Corporation
