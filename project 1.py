@@ -7,6 +7,8 @@ import matplotlib.pyplot as plt
 import time
 from datetime import datetime
 
+import warnings
+warnings.filterwarnings('ignore')
 
 # Function to calculate RSI
 def calculate_rsi(data, window=14):
