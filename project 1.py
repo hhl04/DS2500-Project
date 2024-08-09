@@ -199,6 +199,8 @@ def plot_portfolio_returns(cumulative_returns):
     plt.xlabel('Date')
     plt.ylabel('Cumulative Returns')
     plt.grid(True)
+    plt.savefig('porfolio_returns.jpg', edgecolor='black', dpi=400, 
+                facecolor='orange', transparent=True)
     plt.show()
 
 def plot_portfolio_weights(stocks, weights):
@@ -211,6 +213,8 @@ def plot_portfolio_weights(stocks, weights):
     plt.xlabel('Stocks')
     plt.ylabel('Weight')
     plt.grid(True)
+    plt.savefig('porfolio_weights.jpg', edgecolor='black', dpi=400, 
+                facecolor='orange', transparent=True)
     plt.show()
 
 
@@ -223,6 +227,8 @@ def plot_sharpe_ratio(returns):
     plt.xlabel('Stocks')
     plt.ylabel('Sharpe Ratio')
     plt.grid(True)
+    plt.savefig('sharpe_ratio.jpg', edgecolor='black', dpi=400, 
+                facecolor='orange', transparent=True)
     plt.show()
 
 
