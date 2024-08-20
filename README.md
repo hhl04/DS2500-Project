@@ -1,3 +1,5 @@
+THIS PROJECT AND ITS RESULTS ARE NOT A FINANCIAL ADVICE
+
 PROBLEM STATEMENT AND BACKGROUND
 
   Everyone wants to make more money; it’s the reality. One of the more prominent ways to increase your money outside of a regular salary is through investing. 
