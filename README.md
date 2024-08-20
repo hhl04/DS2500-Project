@@ -1,15 +1,15 @@
-**THIS PROJECT AND ITS RESULTS ARE NOT A FINANCIAL ADVICE**
+**THIS PROJECT AND ITS RESULTS DO NOT CONSTITUTE A FINANCIAL ADVICE**
 
 
 
 **DEMO 1**
 
-https://github.com/user-attachments/assets/32bd8731-ffb4-4142-a983-b3953d79176a
+https://github.com/user-attachments/assets/425a65d2-b748-4afc-b4b1-9ba2a0ebadc4
 
 
 **DEMO 2**
 
-https://github.com/user-attachments/assets/e4b577cd-62f2-4279-9ba6-82c13429deec
+https://github.com/user-attachments/assets/1c7dbf0d-bd7d-43eb-94bd-aa3c41c2bd6c
 
 
 
