@@ -13,6 +13,7 @@ PROBLEM STATEMENT AND BACKGROUND
     growth potential or if the company has the capacity to grow, and risk level or how stable the company is. 
 
 INTRODUCTION TO OUR DATA
+
  	Our main data source is share price data from various public companies from January 2020 to present. 
   To retrieve all this data from the various companies, our project heavily depends on the yfinance library which eases the data retrieval. 
   With this library, we can download data of a single stock or of multiple stocks simultaneously from the Yahoo Finance website. 
@@ -83,6 +84,7 @@ DATA SCIENCE APPROACHES
 RESULTS AND CONCLUSION
 
   **Future Stock Price Prediction**
+  
   The first graph our program creates is a historical plot with data from January 2020 to August 2024, which is shown below for a sample stock AAPL.
   
   <img width="460" alt="Ảnh màn hình 2024-08-20 lúc 15 52 48" src="https://github.com/user-attachments/assets/3c525dd9-513a-4b61-bdd4-d4fe4d41172a">
@@ -103,7 +105,8 @@ RESULTS AND CONCLUSION
   One of the difficult parts of making predictions like these was to filter out the weekends, which you can see was removed for Aug 17 and 18 because there were weekends. 
   No trading happens on weekends, so there is no reason to include that in the prediction.
 
-  **Optimizing Weights**	
+  **Optimizing Weights**
+  
   This following chart shows the strategy for high risk tolerance users. 
   In our investment optimization strategy, we use the Markowitz model in the optimiz_portfolio function to optimize the portfolio by maximizing the Sharpe ratio. 
   The goal is to achieve the highest return at a given risk level or minimize risk at a given return level. Therefore, the allocation of stock weights reflects 
