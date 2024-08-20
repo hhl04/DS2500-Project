@@ -39,6 +39,7 @@ INTRODUCTION TO OUR DATA
   The NewsAPI provides the news content publicly, and the FRED® API provides officially published economic data. Neither source contains personally identifiable information or sensitive data.
   
 DATA SCIENCE APPROACHES
+
   Obviously, an essential thing to creating a stock portfolio is being able to predict future stock prices. To do so, we used the KNN machine learning algorithm. 
   We originally considered the Linear Regression Model, but soon realized that stock market data is not linear and instead has many fluctuations. 
   On the other hand, KNN can handle multiple numerical features, and capture complex and nonlinear patterns in the data. For the features of the machine learning algorithm, 
@@ -79,8 +80,6 @@ DATA SCIENCE APPROACHES
   
   We also use Natural Language Processing and sentiment analysis. Basically we use the TextBlob library for sentiment analysis of news headlines. 
   This technique helps us convert text data into a numerical sentiment score that helps us to quantify the market sentiment.
-	
-
 
 RESULTS AND CONCLUSION
 
