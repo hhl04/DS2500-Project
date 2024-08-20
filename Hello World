@@ -1,7 +1,0 @@
-def main():
-  print("Hello World")
-
-  print("Bhavya Here")
- #comment 
-if __name__ == "__main__":
-  main()
