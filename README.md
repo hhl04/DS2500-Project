@@ -46,6 +46,8 @@ DATA SCIENCE APPROACHES
   For the label of the model, we used the closing price of the stock. A sample of the data frame is shown below with the AAPL stock. 
   For ease of viewing, we’ve only displayed the moving averages with windows of 5 and 20.
   
+  <img width="460" alt="Ảnh màn hình 2024-08-20 lúc 15 51 05" src="https://github.com/user-attachments/assets/dc4d9a41-d6b4-4a50-9de2-9cf97625ed85">
+
   An essential part of the prediction was to shift the closing price back, so the moving average features are trained to predict future closing prices. 
   For example, if we wanted to predict share prices one day ahead, we would shift the closing price one day back. 
   As can be seen in the diagram above, shifting the cell creates a blank cell (bottom right). 
@@ -83,18 +85,17 @@ RESULTS AND CONCLUSION
   **Future Stock Price Prediction**
   The first graph our program creates is a historical plot with data from January 2020 to August 2024, which is shown below for a sample stock AAPL.
   
+  <img width="460" alt="Ảnh màn hình 2024-08-20 lúc 15 52 48" src="https://github.com/user-attachments/assets/3c525dd9-513a-4b61-bdd4-d4fe4d41172a">
+
   This graph is the result of our KNN machine learning algorithm given some training values, and testing them on all trading days from January 2020 to August 2024. 
-  
   The blue are the actual closing prices of the stock, and the orange is the predicted values. 
   As evidenced by the graph, the machine learning model did a decent job at predicting the prices. 
   The RMSE value was a bit on the higher side of 2.1, but this is a reasonable score, given the size of the sample, which was about 1200 values. 
   The RMSE value does get higher, the more dates you ask the program to predict. This is natural, as predictions are weaker in any sense, the farther out it is. 
   In our program, we create historical plots for many stocks to use in our analysis for our portfolio. 
   Next, the program creates the plots with the actual predictions. This plot is shown below for AAPL and was asked to predict 8 days.
-   
   
-  
-  
+  <img width="713" alt="Ảnh màn hình 2024-08-20 lúc 15 53 21" src="https://github.com/user-attachments/assets/26e74e0d-5a56-4245-9513-11fdf95cbea9">
   
   The blue is the next predicted days from when this plot was created. 
   The green is the historic days, which was important to include to provide context to where the predictions are coming from. 
@@ -116,12 +117,16 @@ RESULTS AND CONCLUSION
   Because the risks we currently face are not primarily from the risk of individual companies, but from the risk of dependence resulting from a weighting bias towards a particular stock. 
   However, this risk can be solved manually, as we have set the rebalance frequency in our selected investment strategy module to weekly. 
   In other words, this risk can be avoided by monitoring the market and stock conditions indices on a weekly basis and adjusting our portfolio accordingly.
-  
+
+  <img width="319" alt="Ảnh màn hình 2024-08-20 lúc 15 55 03" src="https://github.com/user-attachments/assets/dc227cc8-2ebf-4cb8-9ec2-a39fc5932060">
+
   According to the result of optimized portfolio composition, the sentiment indexes don't affect our portfolio since we didn’t consider this factor in the weight calculation part. 
   And currently we focused more on financial data analysis, so we won’t put sentiment in our weight calculation, but we will refer to it if we need to adjust our portfolio strategy.
   
   The final output of our project includes a graph shown below that visualizes the optimized stock weights based on the investor's risk tolerance. 
   The portfolio reflects an optimal distribution of assets, tailored to meet specific financial goals, whether they prioritize stability, growth, or a balance of both.
+
+  <img width="635" alt="Ảnh màn hình 2024-08-20 lúc 15 55 55" src="https://github.com/user-attachments/assets/646b1159-2b43-4977-b630-f6008be65d96">
 
 FUTURE WORK
   In the future, we will adjust our investment strategy based on the newest statistical data analyzed by our program. 
