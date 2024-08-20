@@ -14,7 +14,8 @@ PROBLEM STATEMENT AND BACKGROUND
 
 INTRODUCTION TO OUR DATA
 
- 	Our main data source is share price data from various public companies from January 2020 to present. 
+  Our main data source is share price data from various public companies from January 2020 to present. 
+  
   To retrieve all this data from the various companies, our project heavily depends on the yfinance library which eases the data retrieval. 
   With this library, we can download data of a single stock or of multiple stocks simultaneously from the Yahoo Finance website. 
   After downloading data of a single stock and converting it into a data frame, the data frame will have 'Open', 'High', 'Low', 'Close', 'Adj Close', and 'Volume' columns 
@@ -132,6 +133,7 @@ RESULTS AND CONCLUSION
   <img width="635" alt="Ảnh màn hình 2024-08-20 lúc 15 55 55" src="https://github.com/user-attachments/assets/646b1159-2b43-4977-b630-f6008be65d96">
 
 FUTURE WORK
+
   In the future, we will adjust our investment strategy based on the newest statistical data analyzed by our program. 
   Then we will add more metrics to help us optimize the portfolio. Meanwhile, we will introduce an automated trading module to realize automated trading. 
   From there we will start to monitor our portfolio and continue to optimize, and the optimization direction will start to consider automatic decision making and model speed optimization. 
