@@ -1,4 +1,17 @@
-THIS PROJECT AND ITS RESULTS ARE NOT A FINANCIAL ADVICE
+**THIS PROJECT AND ITS RESULTS ARE NOT A FINANCIAL ADVICE**
+
+
+
+**DEMO 1**
+
+https://github.com/user-attachments/assets/32bd8731-ffb4-4142-a983-b3953d79176a
+
+
+**DEMO 2**
+
+https://github.com/user-attachments/assets/e4b577cd-62f2-4279-9ba6-82c13429deec
+
+
 
 PROBLEM STATEMENT AND BACKGROUND
 
